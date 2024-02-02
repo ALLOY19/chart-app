@@ -37,11 +37,13 @@ body {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.116);
     padding: 0.4rem 1rem;
     border: none;
-    margin-left: 46%;
+    
 }
 
 .pag {
-    text-align: center;
-    color: rgb(78, 77, 77);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
 
 }
