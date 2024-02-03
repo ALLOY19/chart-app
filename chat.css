@@ -40,8 +40,9 @@ nav {
     justify-content: space-around;
 }
 
-.bottom i {
+.bottom a {
     cursor: pointer;
+    color: grey;
 }
 
 .add-b {
