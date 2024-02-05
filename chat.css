@@ -68,3 +68,14 @@ nav {
     height: 50px;
     border-radius: 30px;
 }
+
+.sta-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 60px;
+}
+
+.h3 {
+    color: grey;
+    
+}
