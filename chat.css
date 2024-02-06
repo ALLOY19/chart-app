@@ -54,8 +54,8 @@ nav {
     border-radius: 7px;
     border: none;
     position: absolute;
-    right: 5%;
-    bottom: 20%;
+    right: 30px;
+    bottom: 200px;
 }
 
 .-imgs {
@@ -100,13 +100,35 @@ nav {
 }
 
 .new-chat {
-     
+     display: flex;
+     position: relative;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     height: 100vh;
 }
 
 .new-chat h2 {
     color: gray;
+
 }
 
 .new-chat h5 {
     color: rgb(78, 78, 78);
+
+}
+
+
+.profile-btn {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.profile-btn button {
+    background-color: gray;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    
 }
