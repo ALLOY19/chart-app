@@ -157,10 +157,26 @@ nav {
 
 .community-img {
     position: relative;
-    display: ;
 }
 
 .community-img img {
     width: 300px;
-    
+}
+
+/* CHAT LIST STYLE */
+
+.chat-container {
+    display: flex;
+    color: gray;
+    align-items: center;
+}
+
+.chat-container img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.chat {
+    margin-left: 15px;
 }
