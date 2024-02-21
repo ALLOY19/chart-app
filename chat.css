@@ -3,7 +3,22 @@
 }
 
 body {
+    background-color: #111314;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.body-container {
+    position: relative;
+    max-width: 600px;
+    border-radius: 10px;
+    width: 100%;
     background-color: #20272b;
+
 }
 
 
@@ -27,10 +42,12 @@ nav {
 
 .social-links i {
     margin-right: 30px;
+    cursor: pointer;
 }
 
 .bottom {
     background-color: #191e20;
+    max-width: 600px;
     color: grey;
     display: flex;
     position: fixed;
@@ -53,9 +70,10 @@ nav {
     height: 40px;
     border-radius: 7px;
     border: none;
-    position: absolute;
+    position: fixed;
     right: 30px;
     bottom: 200px;
+    z-index: 10;
 }
 
 .-imgs {
@@ -100,12 +118,12 @@ nav {
 }
 
 .new-chat {
-     display: flex;
-     position: relative;
-     justify-content: center;
-     align-items: center;
-     flex-direction: column;
-     height: 100vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .new-chat h2 {
@@ -130,7 +148,7 @@ nav {
     width: 60px;
     height: 60px;
     border-radius: 30px;
-    
+
 }
 
 .calls-tag button {
@@ -169,6 +187,14 @@ nav {
     display: flex;
     color: gray;
     align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+.chat-container:hover {
+    background-color: #1c2124a1;
+    transition: 0.3s;
 }
 
 .chat-container img {
@@ -179,4 +205,40 @@ nav {
 
 .chat {
     margin-left: 15px;
+}
+
+.chat p {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.image-and-chat {
+    display: flex;
+    align-items: center;
+}
+
+
+.chat-container h5 {
+    margin-right: 10px;
+    position: relative;
+    display: flex;
+    top: -10px;
+}
+
+hr {
+    height: 0.2px;
+    border: none;
+    background: rgb(64, 64, 64);
+    width: calc(100% - 101px);
+    display: flex;
+    margin-left: auto;
+}
+
+.blue-tick {
+    color: #5cadc2;
+}
+
+.material-symbols-outlined {
+    margin-right: 5px;  
 }
