@@ -22,9 +22,11 @@ body {
 }
 
 
-.h2 {
+.h5 {
     color: grey;
     margin-left: 25px;
+    position: relative;
+    
 }
 
 nav {
