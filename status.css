@@ -1,0 +1,20 @@
+body {
+    background-color: #111314;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-b {
+    background-color: #00cd40;
+    color: #cac5c5;
+    width: 50px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    position: fixed;
+    right: 30px;
+    bottom: 200px;
+    z-index: 10;
+}
+
