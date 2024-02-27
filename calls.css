@@ -5,6 +5,15 @@ body {
     justify-content: center;
 }
 
+.body-container {
+    position: relative;
+    max-width: 600px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #20272b;
+
+}
+
 .add-b {
     background-color: #00cd40;
     color: #cac5c5;
@@ -52,4 +61,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+nav h1 {
+    color: grey;
+    margin-left: 25px;
 }
