@@ -5,18 +5,20 @@
 body {
     background-color: #111314;
     display: flex;
+    margin-bottom: 80px;
     align-items: center;
     justify-content: center;
 }
 
-.body-container {
+.statusbody-container {
     position: relative;
     max-width: 600px;
     border-radius: 10px;
     width: 100%;
-    background-color: #20272b;
+    /* background-color: #20272b; */
 
 }
+
 
 .add-b {
     background-color: #00cd40;
@@ -71,3 +73,29 @@ nav h1 {
     color: grey;
     margin-left: 25px;
 }
+
+.status-images h2 {
+    display: flex;
+}
+
+.status-images img {
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    margin-top: 20px;
+}
+
+.status-images a {
+    color: grey;
+    position: absolute;
+    
+}
+
+.stats-nav {
+    color: rgb(75, 74, 74);
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+

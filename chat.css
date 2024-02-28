@@ -12,7 +12,7 @@ body {
 }
 
 
-.body-container {
+.chatbody-container {
     position: relative;
     max-width: 600px;
     border-radius: 10px;

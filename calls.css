@@ -1,6 +1,7 @@
 body {
     background-color: #111314;
     display: flex;
+    margin-bottom: 80px;
     align-items: center;
     justify-content: center;
 }
