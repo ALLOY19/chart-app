@@ -88,6 +88,8 @@ nav h1 {
 .status-images a {
     color: grey;
     position: absolute;
+    bottom: 10px;
+    left: 60px;
     
 }
 

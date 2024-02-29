@@ -11,7 +11,7 @@ body {
     max-width: 600px;
     border-radius: 10px;
     width: 100%;
-    background-color: #20272b;
+    /* background-color: #20272b; */
 
 }
 
@@ -67,4 +67,33 @@ nav {
 nav h1 {
     color: grey;
     margin-left: 25px;
+}
+
+.call-btn button {
+    height: 60px;
+    width: 60px;
+    background-color: #00cd40;
+    border-radius: 30px;
+    margin-top: 18px;
+}
+
+.call-btn a {
+    color: rgb(190, 191, 192);
+}
+
+.call-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-nav h3 {
+    color: rgb(75, 74, 74);
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.call-nav h4 {
+    color: rgb(75, 74, 74);
+    margin-left: 20px;
+    margin-top: -5px;
 }
