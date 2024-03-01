@@ -101,3 +101,7 @@ nav h1 {
 }
 
 
+.stats-seen select {
+    background-color: #111314;
+    color: #252a2c;
+}
