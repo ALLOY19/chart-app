@@ -102,6 +102,13 @@ nav h1 {
 
 
 .stats-seen select {
+    display: flex;
     background-color: #111314;
     color: #252a2c;
+    justify-content: center;
+    position: absolute;
+    right: 7px;
+    bottom: 0px;
+    cursor: pointer;
 }
+
